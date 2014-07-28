@@ -4,6 +4,8 @@ gem 'therubyracer'
 gem 'less-rails'
 gem 'twitter-bootstrap-rails'
 
+gem "rspec-rails", :group => [:development, :test]
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
 # Use mysql as the database for Active Record
