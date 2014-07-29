@@ -8,6 +8,9 @@ gem "rspec-rails", :group => [:development, :test]
 gem "cucumber-rails", :require => false, :group => [:development, :test]
 gem 'database_cleaner', :group => [:development, :test]
 
+gem 'devise'
+gem 'cancan'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
 # Use mysql as the database for Active Record
